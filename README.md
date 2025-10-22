@@ -98,7 +98,6 @@ Production RAG systems for PDF processing and real-time chat
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=bzubs&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=1f6feb&currStreakLabel=c9d1d9)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=bzubs&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
 
 </div>
 
