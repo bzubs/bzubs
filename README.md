@@ -15,8 +15,8 @@
 
 **Languages**
 ```
-Python  ██████████████████░░  90%    C++     ████████████████░░░░  80%
-Rust    ██████████░░░░░░░░░░  50%    Go      ████████░░░░░░░░░░░░  40%
+Python      ██████████████████░░  90%    C++        ████████████████░░░░  80%
+JavaScript  ██████████████░░░░░░  70%    Go         ████████░░░░░░░░░░░░  40%
 ```
 
 **Systems & Infrastructure**
@@ -45,17 +45,25 @@ Rust    ██████████░░░░░░░░░░  50%    Go 
 
 ## 🔬 Notable Projects
 
+### `mlzero`
+Custom machine learning library with fundamental algorithms implemented from scratch
+- Linear/Logistic Regression, Decision Trees, Random Forests, SVM
+- Neural Networks with backpropagation, K-Means, PCA
+- Pure Python/NumPy implementations for educational clarity
+- **Tech**: Python, NumPy, Mathematical optimization
+
+### `DELTON`
+Scalable microservice-based architecture for production AI applications
+- Event-driven architecture with message queuing
+- Load balancing and service discovery
+- Containerized deployment with orchestration
+- **Tech**: Docker, Kubernetes, FastAPI, gRPC, Redis, PostgreSQL
+
 ### `transformer-from-scratch`
 Built decoder-only Transformer and MiniGPT implementation in pure PyTorch
 - Custom attention mechanisms, positional encoding, layer normalization
 - Training pipeline for dialogue datasets
 - **Tech**: PyTorch, NumPy, CUDA
-
-### `distributed-ml-infra`
-Multi-GPU training infrastructure with microservice orchestration
-- Load-balanced inference servers with gRPC
-- Cloudflare tunnel integration for public endpoints
-- **Tech**: Docker, Kubernetes, FastAPI, NGINX
 
 ### `cpp-autograd-engine`
 Custom automatic differentiation engine in C++ for ML research
@@ -104,17 +112,15 @@ Production RAG systems for PDF processing and real-time chat
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 **ML/AI Stack**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 **Backend & Infrastructure**
@@ -150,7 +156,7 @@ Production RAG systems for PDF processing and real-time chat
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bzubs)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-veerkar-a61697347/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityaveerkar@gmail.com)
 
 </div>
 
