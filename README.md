@@ -7,7 +7,6 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
-> **Transformers · LLMs · Distributed Systems · Microservices**
 
 ---
 
