@@ -2,8 +2,8 @@
 
 ```ascii
 ┌─────────────────────────────────────────────────────────────┐
-│  AI/ML Engineer • Systems Architect • Backend Developer    │
-│  Building high-performance systems from first principles   │
+│  AI/ML Engineer • Systems Architect • Backend Developer     │
+│  Building high-performance systems from first principles    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
