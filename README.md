@@ -160,12 +160,3 @@ Production RAG systems for PDF processing and real-time chat
 
 ---
 
-<div align="center">
-
-```
-"Systems thinking meets deep learning—everything built from scratch."
-```
-
-**⚙️ Crafting the infrastructure behind intelligent systems**
-
-</div>
