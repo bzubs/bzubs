@@ -14,8 +14,8 @@
 
 **Languages**
 ```
-Python      ██████████████████░░  90%    C++        ████████████████░░░░  80%     Typescript        ██████████░░░░░░░░░░  40%
-JavaScript  ██████████████░░░░░░  70%    Go         ██████░░░░░░░░░░░░░░  30%
+Python      ██████████████████░░  90%    C++  ████████████████░░░░  80%     Typescript        ██████████░░░░░░░░░░  40%
+JavaScript  ██████████████░░░░░░  70%    Go   ██████░░░░░░░░░░░░░░  30%
 ```
 
 **Systems & Infrastructure**
@@ -23,7 +23,7 @@ JavaScript  ██████████████░░░░░░  70%   
 ┌─ Backend ──────────────────────────────────────────┐
 │ FastAPI • gRPC • Node.js • NGINX • WebSockets      │
 ├─ Orchestration ────────────────────────────────────┤
-│ Docker • Kubernetes • Microservices • CI/CD        │
+│ Docker • Kubernetes • Microservices                │
 ├─ Databases ────────────────────────────────────────┤
 │ PostgreSQL • MongoDB • Redis • Vector DBs          │
 └────────────────────────────────────────────────────┘
@@ -34,7 +34,7 @@ JavaScript  ██████████████░░░░░░  70%   
 ┌─ Frameworks ───────────────────────────────────────┐
 │ PyTorch • TensorFlow • vLLM Inferencing            │
 ├─ Specialized ──────────────────────────────────────┤
-│ CUDA • • Distributed Training                      │
+│ CUDA • Distributed Inferencing • Benchmarking      │
 ├─ Applications ─────────────────────────────────────┤
 │ LLMs • RAG Systems • Fine-tuning                   │
 └────────────────────────────────────────────────────┘
