@@ -10,84 +10,91 @@
 
 ---
 
-## ⚡ Core Stack
+## Core Stack
 
 **Languages**
 ```
-Python      ██████████████████░░  90%    C++        ████████████████░░░░  80%
-JavaScript  ██████████████░░░░░░  70%    Go         ████████░░░░░░░░░░░░  40%
+Python      ██████████████████░░  90%    C++        ████████████████░░░░  80%     Typescript        ██████████░░░░░░░░░░  40%
+JavaScript  ██████████████░░░░░░  70%    Go         ██████░░░░░░░░░░░░░░  30%
 ```
 
 **Systems & Infrastructure**
 ```
 ┌─ Backend ──────────────────────────────────────────┐
-│ FastAPI • gRPC • Node.js • NGINX • WebSockets     │
+│ FastAPI • gRPC • Node.js • NGINX • WebSockets      │
 ├─ Orchestration ────────────────────────────────────┤
-│ Docker • Kubernetes • Microservices • CI/CD       │
+│ Docker • Kubernetes • Microservices • CI/CD        │
 ├─ Databases ────────────────────────────────────────┤
-│ PostgreSQL • MongoDB • Redis • Vector DBs         │
+│ PostgreSQL • MongoDB • Redis • Vector DBs          │
 └────────────────────────────────────────────────────┘
 ```
 
 **AI/ML Pipeline**
 ```
 ┌─ Frameworks ───────────────────────────────────────┐
-│ PyTorch • TensorFlow • HuggingFace Transformers   │
+│ PyTorch • TensorFlow • vLLM Inferencing            │
 ├─ Specialized ──────────────────────────────────────┤
-│ CUDA • Custom Autograd • Distributed Training     │
+│ CUDA • • Distributed Training                      │
 ├─ Applications ─────────────────────────────────────┤
-│ LLMs • RAG Systems • NLP Pipelines • Fine-tuning  │
+│ LLMs • RAG Systems • Fine-tuning                   │
 └────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🔬 Notable Projects
+## Notable Projects
+
+## Systems Engineering
+
+### `LLM Benchmarking tool`
+A GPU-aware LLM benchmarking orchestration platform built on top of vLLM, 
+designed for real-world system behavior, concurrent execution, and clean 
+architecture design.
+
+- Remote benchmark job submission
+- Thread based Task Scheduler for parallel execution
+- Cluster management for available GPU cluster
+- Real-time monitoring & logs
+- Structured metrics extraction
+- Per-user history tracking
+
+### `loadbalancer`
+A large-scale production-grade, high-performance reverse proxy designed to 
+operate under configurable latency and throughput constraints. This system 
+provides a pluggable architecture for sophisticated traffic distribution and 
+real-time observability.
+- **Tech**: Node.js, http API, zod, vanilla JS
+
+### `DELTON`
+Scalable 2 server-based architecture for production-based secure wiping.
+- Custom token based auth between proxy and microservices.
+- Remote Wiping tool functionality for Linux Systems.
+- Professional Logging system and Dashboards
+- **Tech**: Node.js, FastAPI, Nest.js, MongoDB
+
+
+## Machine Learning
+
+### `attention-from-scratch`
+Built encoder-decoder mdoel Transformer and MiniGPT implementation in pure PyTorch
+- Custom attention mechanisms, positional encoding, layer normalization
+- Training pipeline for dialogue datasets
+- **Tech**: PyTorch, NumPy
+
+### `rag-pipeline-suite`
+Production RAG systems for PDF processing and real-time chat
+- Vector similarity search with FAISS
+- YouTube transcript extraction and semantic search
+- **Tech**: LangChain, ChromaDB, FastAPI
 
 ### `mlzero`
 Custom machine learning library with fundamental algorithms implemented from scratch
 - Linear/Logistic Regression, Decision Trees, Random Forests, SVM
 - Neural Networks with backpropagation, K-Means, PCA
-- Pure Python/NumPy implementations for educational clarity
+- Pure Python/NumPy implementations for research clarity
 - **Tech**: Python, NumPy, Mathematical optimization
-
-### `DELTON`
-Scalable microservice-based architecture for production AI applications
-- Event-driven architecture with message queuing
-- Load balancing and service discovery
-- Containerized deployment with orchestration
-- **Tech**: Docker, Kubernetes, FastAPI, gRPC, Redis, PostgreSQL
-
-### `transformer-from-scratch`
-Built decoder-only Transformer and MiniGPT implementation in pure PyTorch
-- Custom attention mechanisms, positional encoding, layer normalization
-- Training pipeline for dialogue datasets
-- **Tech**: PyTorch, NumPy, CUDA
-
-### `cpp-autograd-engine`
-Custom automatic differentiation engine in C++ for ML research
-- Computational graph construction and backpropagation
-- Memory-efficient gradient computation
-- **Tech**: C++17, Modern CMake, Custom allocators
-
-### `rag-pipeline-suite`
-Production RAG systems for PDF processing and real-time chat
-- Vector similarity search with FAISS/Pinecone
-- YouTube transcript extraction and semantic search
-- **Tech**: LangChain, ChromaDB, FastAPI, Redis
-
 ---
 
-## 📈 Current Focus
-
-```diff
-+ Training GPT-style models on large-scale dialogue corpora
-+ Optimizing distributed inference for sub-100ms latency
-+ Building production-grade LLM microservices
-+ Researching efficient attention mechanisms
-```
-
----
 
 ## 📊 GitHub Analytics
 
