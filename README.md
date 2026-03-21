@@ -58,7 +58,7 @@ architecture design.
 - Structured metrics extraction
 - Per-user history tracking
 
-### `loadbalancer`
+### `FERMION`
 A large-scale production-grade, high-performance reverse proxy designed to 
 operate under configurable latency and throughput constraints. This system 
 provides a pluggable architecture for sophisticated traffic distribution and 
@@ -81,7 +81,7 @@ Built encoder-decoder mdoel Transformer and MiniGPT implementation in pure PyTor
 - Training pipeline for dialogue datasets
 - **Tech**: PyTorch, NumPy
 
-### `rag-pipeline-suite`
+### `Chat With Video`
 Production RAG systems for PDF processing and real-time chat
 - Vector similarity search with FAISS
 - YouTube transcript extraction and semantic search
@@ -155,7 +155,7 @@ Custom machine learning library with fundamental algorithms implemented from scr
 
 ---
 
-## 📫 Connect
+## Connect
 
 <div align="center">
 
